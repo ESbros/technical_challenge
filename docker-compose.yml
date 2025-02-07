@@ -1,0 +1,14 @@
+services:
+
+  backend:
+    image: mysite-backend
+    pull_policy: never
+    container_name: mysite-backend
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      target: runner
+    ports:
+      - 8000:8000
+    env_file:
+      - ./backend/.env
