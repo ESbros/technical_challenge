@@ -72,7 +72,7 @@ def get_next_node(last_message: BaseMessage, goto: str):
     return goto
 
 def get_next_node_based_on_text_existence(last_message: BaseMessage, goto: str):
-    if len(last_message.content) <= 100:
+    if len(last_message.content) <= 1000:
         return END
     return goto
 
