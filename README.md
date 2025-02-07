@@ -1,5 +1,7 @@
 # How to Run
 
+The following instructions allows running an API, alternatlivy you can also check the Jupyter notebook.
+
 1. Install Docker
 
 2. Download Repository
