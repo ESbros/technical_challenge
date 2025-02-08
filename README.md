@@ -1,12 +1,13 @@
 # How to Run
 
-The following instructions allows running an API, alternativly you can also review the Jupyter notebook.
+The following instructions allows running an API, alternatively you can also review the Jupyter notebook.
 
 1. Install Docker
 
 2. Download Repository
 
 3. Create Environment File
+
 Inside the backend folder, create a .env file and set the variables
 ```
 OPENAI_API_KEY=""

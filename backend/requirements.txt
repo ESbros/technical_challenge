@@ -15,6 +15,7 @@ boto3==1.35.82
 pillow==11.0.0
 pytesseract==0.3.13
 
+bs4==0.0.2
 annotated-types==0.7.0
 anyio==4.6.0
 click==8.1.7
